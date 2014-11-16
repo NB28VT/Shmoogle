@@ -44,3 +44,23 @@ body {
   border-bottom: 1 px solid #e5e5e5;
   background: #f4f4f4;
 }
+
+.main-container {
+  width: 512px;
+  margin-left: 135px;
+}
+
+.search-result-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.search-result-title {
+  margin: 0;
+}
+
+.search-result-source {
+  display: block;
+  font-style:normal;
+  color: #009933;
+}
