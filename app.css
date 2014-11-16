@@ -1,5 +1,4 @@
 body {
-  background-color: Tomato;
   margin = 0;
   font-family: 'arial', 'san-serif';
   font-size: 14px;
@@ -29,15 +28,56 @@ body {
 
 }
 
-.nav > li > a:hover {
-  color: #ffffff;
-}
 
 .nav > li > active,
 .nav > li > a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+
+
+.filters {
+  padding: 0;
+  margin: 0;
+}
+
+.filters li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+.filters > li > a {
+  display: block;
+  margin: 0px 20px;
+  padding: 10px;
+  color: #787878;
+
+  border-bottom: 3px solid red;
+  text-decoration: none;
+}
+
+
+
+
+
+.filters-container {
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .search-container {
   padding: 20px 10px;
@@ -55,12 +95,17 @@ body {
   list-style: none;
 }
 
+.search-result-list li {
+  margin-bottom: 30px;
+}
+
+
 .search-result-title {
   margin: 0;
 }
 
 .search-result-source {
   display: block;
-  font-style:normal;
+  font-style: normal;
   color: #009933;
 }
